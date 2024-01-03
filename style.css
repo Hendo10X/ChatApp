@@ -92,6 +92,11 @@
     cursor: pointer;
  }
 
+ .form form .field i.active::before{
+   content:"/f070";
+   color:#333;
+ }
+
  .form .link {
     text-align: center;
     margin: 10px 0;
@@ -155,6 +160,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+   
 }
 
 .users .search .text {
@@ -170,6 +176,14 @@
     font-size:16px;
     border-radius: 5px;
     outline: none;
+    opacity: 0;
+    pointer-events:none;
+    transition:  0.3s all ease;
+}
+
+.users .search input.active {
+   opacity: 1;
+   pointer-events: auto;
 }
 
 .users .search button {
@@ -324,4 +338,5 @@
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    
  }
