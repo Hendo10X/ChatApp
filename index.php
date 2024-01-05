@@ -41,5 +41,6 @@
         </section>
     </div>
     <script src="./Javascript/main.js"></script>
+    <script src="./Javascript/signup.js"></script>
 </body>
 </html>
