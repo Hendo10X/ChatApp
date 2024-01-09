@@ -16,21 +16,21 @@
                 <div class="name-details">
                     <div class="field input">
                         <label for="">CodeName</label>
-                        <input type="text" placeholder="Enter your Username">
+                        <input type="text" name="fname" placeholder="Enter your Username" required>
                     </div>
                 </div>
                     <div class="field input">
                         <label for="">Email</label>
-                        <input type="text" placeholder="Enter your Mail">
+                        <input type="text" name="email" placeholder="Enter your Mail" required>
                     </div>
                     <div class="field input">
                         <label for="">Password</label>
-                        <input type="password" placeholder="Enter your Username">
+                        <input type="password" name="password" placeholder="Enter your Username" required>
                         <i class="fa-solid fa-eye"></i>
                     </div>
                     <div class="field image">
                         <label for="">Select Image</label>
-                        <input type="file" placeholder="Enter your Username">
+                        <input type="file" name="image" placeholder="Enter your Username" required>
                        
                     </div>
                     <div class="field input button">
